@@ -48,8 +48,8 @@
   color: black;
 } */
 body {
-  width: 90vw;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   background: url('../public/playmo\ connect-host-play\ \(1\)\ \(1\).png');
   background-size: cover;
 }
