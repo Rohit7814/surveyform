@@ -1,0 +1,116 @@
+.survey-form {
+  text-align: center;
+  font-size: 2rem;
+  width: 90vw;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.survey--option {
+  font-size: 1.8rem;
+  padding-top: 10px; /* Adjust spacing for better readability */
+  height: 60%;
+}
+
+.survey--select {
+  height: 35px;
+  margin-left: 20px;
+  margin-bottom: 28px;
+  padding-left: 10px;
+  font-size: 1rem;
+  width: 70%; /* Adjust width for responsiveness */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+.select--c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.select--c--label,
+.select--c--label1 {
+  font-size: 1rem;
+  padding: 5px;
+  margin: 5px; /* Add some margin for better spacing */
+  width: 70%; /* Adjust width for responsiveness */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+.view-results {
+  height: 52px;
+  width: 118px;
+  margin-top: 20px; /* Add margin for better spacing */
+  background-color: #4caf50; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-results:hover {
+  background-color: #45a049;
+}
+
+
+.survey-form {
+    text-align: center;
+    font-size: 2rem;
+    width: 90vw;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .survey--option {
+    font-size: 1.8rem;
+    padding-top: 10px; /* Adjust spacing for better readability */
+    height: 60%;
+  }
+  
+  .survey--select {
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 28px;
+    padding-left: 10px;
+    font-size: 1rem;
+    width: 70%; /* Adjust width for responsiveness */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    border: 2px solid #4caf50; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .select--c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .select--c--label,
+  .select--c--label1 {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px; /* Add some margin for better spacing */
+    width: 70%; /* Adjust width for responsiveness */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .view-results {
+    height: 53px;
+    width: 118px;
+    margin-top: 20px; /* Add margin for better spacing */
+    background-color: #4caf50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-results:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+  }
+  
