@@ -44,7 +44,6 @@
 .age--button {
   height: 40px;
   width: 100px;
-  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #4caf50;
