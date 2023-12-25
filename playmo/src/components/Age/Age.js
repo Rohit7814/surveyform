@@ -20,7 +20,7 @@ const Age = () => {
     <div className='age--page'>
       <h1>Welcome</h1>
       <div className='age--container'>
-        <h2 className='age--heading'>Enter the correct age</h2>
+        <h2 className='age--heading'>Enter The Correct Age</h2>
         <input type='number' onChange={onChangeHandle} placeholder='Enter the age' className='age--input' />
       </div>
       <div className='age--button-con'>
