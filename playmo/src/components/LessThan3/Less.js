@@ -33,12 +33,6 @@ const SurveyForm = () => {
     if (!enrollment || (enrollment === 'ParentToddlerPrograms' && (!likes.length || !dislikes.length))) {
       event.preventDefault();
       window.alert('Please answer all questions before submitting.');
-    } else {
-      // Implement your submission logic here
-      console.log('Enrollment:', enrollment);
-      console.log('Likes:', likes);
-      console.log('Dislikes:', dislikes);
-      // Add any additional logic or submit the form
     }
   };
 
