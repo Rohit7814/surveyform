@@ -18,11 +18,7 @@ const Greater = () => {
     if (!enrollment || !playFrequency) {
       event.preventDefault(); // Prevent navigation
       window.alert('Please select options for all questions before submitting.');
-    } else {
-      // Implement your submission logic here
-      console.log('Enrollment:', enrollment);
-      console.log('Play Frequency:', playFrequency);
-    }
+    } 
   };
 
   return (
